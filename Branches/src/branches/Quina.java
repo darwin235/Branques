@@ -12,20 +12,6 @@ import java.util.Scanner;
 
 public class Quina {
     
-    public static int[] Ordenar (int[] carto) {
-         int i, j, aux;
-         for(i=0;i < carto.length-1;i++) {
-              for(j=0;j < carto.length-i-1;j++) {
-                   if(carto[j+1] < carto[j]){
-                      aux = carto[j+1];
-                      carto[j+1] = carto[j];
-                      carto[j] = aux;
-                   }
-              }
-        }
-        return carto;
-    }
-    
     
     public static void Mostrar(int[] carto, int[] sortit){    
         for (int i = 0;i < 15;i++){

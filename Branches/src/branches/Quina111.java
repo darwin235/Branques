@@ -65,11 +65,5 @@ public class Quina111 {
         Mostrar(carto,sortit);
         return carto;
     }
-    
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        int[] bulleta = retornaCarto();          
-    }
+
 }
